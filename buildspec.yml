@@ -7,7 +7,8 @@ phases:
   build:
     commands:
       - echo "dotnet installed"
-      - dotnet publish -o C:\Users\ContainerAdministrator\AppData\Local\Microsoft\dotnet\
+      - cd C:\Users\ContainerAdministrator\AppData\Local\Microsoft\dotnet\
+      - dotnet publish -o C:\Users\ContainerAdministrator\AppData\Local\Microsoft\dotnet\artifact
 artifacts:
   type: zip
   paths:
