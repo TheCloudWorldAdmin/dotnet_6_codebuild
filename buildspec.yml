@@ -7,6 +7,7 @@ phases:
   build:
     commands:
       - echo "dotnet installed"
+      - dotnet publish --no-dependencies
 artifacts:
   type: zip
   paths:
