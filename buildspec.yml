@@ -3,8 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - /usr/local/bin/dotnet-install.sh --channel LTS
-#      - ./dotnet-install.ps1 -Channel LTS
+      - ./dotnet-install.ps1 -Channel LTS
   build:
     commands:
       - echo "dotnet installed"
