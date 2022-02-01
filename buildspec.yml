@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - ./dotnet-install.ps1 -Channel LTS
+  build:
+    commands:
+      - echo "this is build phase"
+artifacts:
+  type: zip
+  paths:
+    - '*'
