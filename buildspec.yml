@@ -3,14 +3,11 @@ version: 0.2
 phases:
   install:
     commands:
-      - /usr/local/bin/dotnet-install.sh -channel LTS   
-#     - ./dotnet-install.ps1
+      - /usr/local/bin/dotnet-install.sh -channel LTS
   build:
     commands:
       - echo "dotnet installed"
       - dotnet --info
- #     - cd C:\Users\ContainerAdministrator\AppData\Local\Microsoft\dotnet\
- #     - dotnet publish -o C:\Users\ContainerAdministrator\AppData\Local\Microsoft\dotnet\artifact
 artifacts:
   type: zip
   paths:
