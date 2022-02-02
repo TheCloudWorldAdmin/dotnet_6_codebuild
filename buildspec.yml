@@ -3,8 +3,8 @@ version: 0.2
 phases:
   install:
     commands:
-#      - ./dotnet-install.ps1 -Channel LTS
-       - ./dotnet-install.ps1 -Runtime dotnet -Version 6.0.0
+     - ./dotnet-install.ps1 -Channel LTS
+ #      - ./dotnet-install.ps1 -Runtime dotnet -Version 6.0.0
   build:
     commands:
       - echo "dotnet installed"
