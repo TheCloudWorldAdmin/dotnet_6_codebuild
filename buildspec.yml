@@ -4,7 +4,7 @@ phases:
   install:
     commands:
 #      - ./dotnet-install.ps1 -Channel LTS
-       - ./dotnet-install.ps1 -Channel 6.0 -InstallDir C:\cli
+       - ./dotnet-install.ps1 -Runtime dotnet -Version 6.0.0
   build:
     commands:
       - echo "dotnet installed"
