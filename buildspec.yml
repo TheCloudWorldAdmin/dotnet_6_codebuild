@@ -8,6 +8,7 @@ phases:
   build:
     commands:
       - echo "dotnet installed"
+      - dotnet --help
  #     - cd C:\Users\ContainerAdministrator\AppData\Local\Microsoft\dotnet\
  #     - dotnet publish -o C:\Users\ContainerAdministrator\AppData\Local\Microsoft\dotnet\artifact
 artifacts:
